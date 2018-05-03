@@ -1,0 +1,357 @@
+May  2 12:18:04 oscargc-OptiPlex-980 systemd-logind[698]: New seat seat0.
+May  2 12:18:04 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event1 (Power Button)
+May  2 12:18:04 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event0 (Power Button)
+May  2 12:18:04 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  2 12:18:09 oscargc-OptiPlex-980 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+May  2 12:18:09 oscargc-OptiPlex-980 systemd-logind[698]: New session c1 of user gdm.
+May  2 12:18:09 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+May  2 12:18:12 oscargc-OptiPlex-980 gnome-keyring-daemon[852]: couldn't access control socket: /run/user/120/keyring/control: No such file or directory
+May  2 12:18:22 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event1 (Power Button)
+May  2 12:18:22 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event0 (Power Button)
+May  2 12:18:22 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  2 12:18:31 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  2 12:18:47 oscargc-OptiPlex-980 dbus-daemon[683]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 15:19:03 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:session): session opened for user oscargc by (uid=0)
+May  2 15:19:03 oscargc-OptiPlex-980 systemd-logind[698]: New session 2 of user oscargc.
+May  2 15:19:03 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user oscargc by (uid=0)
+May  2 15:19:08 oscargc-OptiPlex-980 gnome-keyring-daemon[2193]: The Secret Service was already initialized
+May  2 15:19:10 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  2 15:19:34 oscargc-OptiPlex-980 dbus-daemon[683]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 15:20:19 oscargc-OptiPlex-980 polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:oscargc to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:2768:8431 [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:oscargc)
+May  2 15:20:23 oscargc-OptiPlex-980 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+May  2 15:20:23 oscargc-OptiPlex-980 pkexec[3638]: oscargc: Executing command [USER=root] [TTY=unknown] [CWD=/home/oscargc] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+May  2 15:22:01 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event1 (Power Button)
+May  2 15:22:01 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event0 (Power Button)
+May  2 15:22:02 oscargc-OptiPlex-980 systemd-logind[698]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  2 15:23:07 oscargc-OptiPlex-980 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=oscargc rhost=  user=oscargc
+May  2 15:23:12 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/passwd root
+May  2 15:23:12 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 15:23:17 oscargc-OptiPlex-980 passwd[4679]: pam_unix(passwd:chauthtok): password changed for root
+May  2 15:23:17 oscargc-OptiPlex-980 passwd[4679]: gkr-pam: couldn't update the login keyring password: no old password was entered
+May  2 15:23:17 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 15:23:37 oscargc-OptiPlex-980 polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:oscargc to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:4857:33920 [gnome-control-center user-accounts] (owned by unix-user:oscargc)
+May  2 15:27:16 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+May  2 15:27:16 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 15:27:23 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 15:29:35 oscargc-OptiPlex-980 polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:oscargc to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:6643:68669 [gnome-control-center user-accounts] (owned by unix-user:oscargc)
+May  2 15:30:20 oscargc-OptiPlex-980 accounts-daemon: request by system-bus-name::1.214 [gnome-control-center user-accounts pid:6643 uid:1000]: create user 'user'
+May  2 15:30:21 oscargc-OptiPlex-980 groupadd[6698]: group added to /etc/group: name=user, GID=1001
+May  2 15:30:21 oscargc-OptiPlex-980 groupadd[6698]: group added to /etc/gshadow: name=user
+May  2 15:30:21 oscargc-OptiPlex-980 groupadd[6698]: new group: name=user, GID=1001
+May  2 15:30:21 oscargc-OptiPlex-980 useradd[6702]: new user: name=user, UID=1001, GID=1001, home=/home/user, shell=/bin/bash
+May  2 15:30:21 oscargc-OptiPlex-980 chfn[6710]: changed user 'user' information
+May  2 15:30:21 oscargc-OptiPlex-980 gpasswd[6715]: user user added by root to group sudo
+May  2 15:30:22 oscargc-OptiPlex-980 accounts-daemon: request by system-bus-name::1.214 [gnome-control-center user-accounts pid:6643 uid:1000]: set password and hint of user 'user' (1001)
+May  2 15:30:22 oscargc-OptiPlex-980 usermod[6719]: change user 'user' password
+May  2 15:33:15 oscargc-OptiPlex-980 gnome-keyring-daemon[2193]: couldn't initialize slot with master password: The password or PIN is incorrect
+May  2 15:33:15 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  2 15:33:22 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt-get update
+May  2 15:33:22 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 15:33:28 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 15:33:40 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May  2 15:33:40 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 15:33:40 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 15:33:44 oscargc-OptiPlex-980 systemd-logind[698]: System is rebooting.
+May  2 15:34:29 oscargc-OptiPlex-980 systemd-logind[814]: New seat seat0.
+May  2 15:34:29 oscargc-OptiPlex-980 systemd-logind[814]: Watching system buttons on /dev/input/event1 (Power Button)
+May  2 15:34:29 oscargc-OptiPlex-980 systemd-logind[814]: Watching system buttons on /dev/input/event0 (Power Button)
+May  2 15:34:29 oscargc-OptiPlex-980 systemd-logind[814]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  2 15:34:32 oscargc-OptiPlex-980 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+May  2 15:34:32 oscargc-OptiPlex-980 systemd-logind[814]: New session c1 of user gdm.
+May  2 15:34:32 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+May  2 15:34:36 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  2 15:35:00 oscargc-OptiPlex-980 dbus-daemon[784]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 15:35:25 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:session): session opened for user oscargc by (uid=0)
+May  2 15:35:25 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user oscargc by (uid=0)
+May  2 15:35:25 oscargc-OptiPlex-980 systemd-logind[814]: New session 2 of user oscargc.
+May  2 15:35:28 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  2 15:35:52 oscargc-OptiPlex-980 dbus-daemon[784]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 16:00:33 oscargc-OptiPlex-980 polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:oscargc to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:1509:8243 [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:oscargc)
+May  2 16:01:44 oscargc-OptiPlex-980 systemd-logind[814]: Watching system buttons on /dev/input/event1 (Power Button)
+May  2 16:01:44 oscargc-OptiPlex-980 systemd-logind[814]: Watching system buttons on /dev/input/event0 (Power Button)
+May  2 16:01:44 oscargc-OptiPlex-980 systemd-logind[814]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  2 16:17:01 oscargc-OptiPlex-980 CRON[3516]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 16:17:01 oscargc-OptiPlex-980 CRON[3516]: pam_unix(cron:session): session closed for user root
+May  2 16:27:37 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  2 16:31:42 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  2 16:39:52 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  2 16:55:27 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  2 17:15:10 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i en01
+May  2 17:15:10 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:15:10 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:15:19 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:15:19 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:15:27 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:15:34 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:15:34 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:15:43 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:15:51 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:15:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:15:54 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:15:59 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:15:59 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:16:19 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:16:28 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:16:28 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:16:43 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:16:48 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:16:48 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:16:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:17:01 oscargc-OptiPlex-980 CRON[4639]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  2 17:17:01 oscargc-OptiPlex-980 CRON[4639]: pam_unix(cron:session): session closed for user root
+May  2 17:17:08 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:17:08 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:17:12 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:17:17 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:17:17 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:17:19 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:17:25 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:17:25 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:17:26 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:17:30 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:17:30 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:17:32 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:17:59 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:17:59 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:18:01 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:18:42 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/sbin/tcpdump -n -i eno1
+May  2 17:18:42 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  2 17:18:43 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  2 17:22:53 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  2 17:54:28 oscargc-OptiPlex-980 systemd-logind[814]: System is powering down.
+May  3 08:26:57 oscargc-OptiPlex-980 systemd-logind[797]: New seat seat0.
+May  3 08:26:57 oscargc-OptiPlex-980 systemd-logind[797]: Watching system buttons on /dev/input/event1 (Power Button)
+May  3 08:26:57 oscargc-OptiPlex-980 systemd-logind[797]: Watching system buttons on /dev/input/event0 (Power Button)
+May  3 08:26:57 oscargc-OptiPlex-980 systemd-logind[797]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  3 08:26:58 oscargc-OptiPlex-980 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+May  3 08:26:58 oscargc-OptiPlex-980 systemd-logind[797]: New session c1 of user gdm.
+May  3 08:26:58 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+May  3 08:27:04 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 08:27:11 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:session): session opened for user oscargc by (uid=0)
+May  3 08:27:11 oscargc-OptiPlex-980 systemd-logind[797]: New session 2 of user oscargc.
+May  3 08:27:11 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user oscargc by (uid=0)
+May  3 08:27:14 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 08:27:27 oscargc-OptiPlex-980 dbus-daemon[798]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 08:28:27 oscargc-OptiPlex-980 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=oscargc rhost=  user=oscargc
+May  3 08:28:39 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install htop
+May  3 08:28:39 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 08:28:47 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 08:49:47 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 09:17:01 oscargc-OptiPlex-980 CRON[3613]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 09:17:01 oscargc-OptiPlex-980 CRON[3613]: pam_unix(cron:session): session closed for user root
+May  3 09:25:01 oscargc-OptiPlex-980 CRON[3631]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 09:25:01 oscargc-OptiPlex-980 CRON[3631]: pam_unix(cron:session): session closed for user root
+May  3 10:17:01 oscargc-OptiPlex-980 CRON[3693]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 10:17:01 oscargc-OptiPlex-980 CRON[3693]: pam_unix(cron:session): session closed for user root
+May  3 10:35:21 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 10:35:26 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 10:49:28 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 10:49:32 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 10:52:16 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 10:55:43 oscargc-OptiPlex-980 polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:oscargc to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:1937:4329 [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:oscargc)
+May  3 10:56:57 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install sshd
+May  3 10:56:57 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 10:56:57 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 10:57:01 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install ssh
+May  3 10:57:01 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 10:57:13 oscargc-OptiPlex-980 useradd[5192]: new user: name=sshd, UID=121, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+May  3 10:57:13 oscargc-OptiPlex-980 usermod[5198]: change user 'sshd' password
+May  3 10:57:14 oscargc-OptiPlex-980 chage[5203]: changed password expiry for sshd
+May  3 10:57:15 oscargc-OptiPlex-980 sshd[5285]: Server listening on 0.0.0.0 port 22.
+May  3 10:57:15 oscargc-OptiPlex-980 sshd[5285]: Server listening on :: port 22.
+May  3 10:57:18 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 11:03:06 oscargc-OptiPlex-980 sshd[5532]: Connection closed by 127.0.0.1 port 53186 [preauth]
+May  3 11:03:13 oscargc-OptiPlex-980 sshd[5535]: Accepted password for oscargc from 127.0.0.1 port 53188 ssh2
+May  3 11:03:13 oscargc-OptiPlex-980 sshd[5535]: pam_unix(sshd:session): session opened for user oscargc by (uid=0)
+May  3 11:03:13 oscargc-OptiPlex-980 systemd-logind[797]: New session 7 of user oscargc.
+May  3 11:03:44 oscargc-OptiPlex-980 sshd[5627]: Received disconnect from 127.0.0.1 port 53188:11: disconnected by user
+May  3 11:03:44 oscargc-OptiPlex-980 sshd[5627]: Disconnected from user oscargc 127.0.0.1 port 53188
+May  3 11:03:44 oscargc-OptiPlex-980 sshd[5535]: pam_unix(sshd:session): session closed for user oscargc
+May  3 11:03:44 oscargc-OptiPlex-980 systemd-logind[797]: Removed session 7.
+May  3 11:06:25 oscargc-OptiPlex-980 dbus-daemon[798]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 11:07:22 oscargc-OptiPlex-980 dbus-daemon[798]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 11:08:28 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc/Downloads/Analise_log_ssh-master/Servidor  ; USER=root ; COMMAND=/usr/bin/apt install python-pip
+May  3 11:08:28 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 11:09:39 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 11:10:49 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc/Downloads/Analise_log_ssh-master/Servidor  ; USER=root ; COMMAND=/usr/bin/pip install Pygtail
+May  3 11:10:49 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 11:10:52 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 11:11:39 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc/Downloads/Analise_log_ssh-master/Servidor  ; USER=root ; COMMAND=/usr/bin/pip install lxml
+May  3 11:11:39 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 11:11:42 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 11:11:49 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc/Downloads/Analise_log_ssh-master/Servidor  ; USER=root ; COMMAND=/usr/bin/pip install bottle
+May  3 11:11:49 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 11:11:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 11:13:44 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc/Downloads/Analise_log_ssh-master/Servidor  ; USER=root ; COMMAND=/usr/bin/python2.7 server.py
+May  3 11:13:44 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 11:17:01 oscargc-OptiPlex-980 CRON[12198]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 11:17:01 oscargc-OptiPlex-980 CRON[12198]: pam_unix(cron:session): session closed for user root
+May  3 11:17:22 oscargc-OptiPlex-980 sshd[12222]: Accepted password for oscargc from 127.0.0.1 port 53400 ssh2
+May  3 11:17:22 oscargc-OptiPlex-980 sshd[12222]: pam_unix(sshd:session): session opened for user oscargc by (uid=0)
+May  3 11:17:22 oscargc-OptiPlex-980 systemd-logind[797]: New session 9 of user oscargc.
+May  3 11:19:10 oscargc-OptiPlex-980 dbus-daemon[798]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 11:33:46 oscargc-OptiPlex-980 sshd[12291]: Received disconnect from 127.0.0.1 port 53400:11: disconnected by user
+May  3 11:33:47 oscargc-OptiPlex-980 sshd[12291]: Disconnected from user oscargc 127.0.0.1 port 53400
+May  3 11:33:47 oscargc-OptiPlex-980 sshd[12222]: pam_unix(sshd:session): session closed for user oscargc
+May  3 11:33:47 oscargc-OptiPlex-980 systemd-logind[797]: Removed session 9.
+May  3 12:17:02 oscargc-OptiPlex-980 CRON[12857]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 12:17:02 oscargc-OptiPlex-980 CRON[12857]: pam_unix(cron:session): session closed for user root
+May  3 12:34:03 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 12:36:13 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 12:42:19 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 12:47:28 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 12:48:37 oscargc-OptiPlex-980 dbus-daemon[798]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 12:50:39 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt-cache search c#
+May  3 12:50:39 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 12:50:41 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 12:56:48 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/1 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+May  3 12:56:48 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 12:56:50 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 12:57:01 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/1 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mono-official-stable.list
+May  3 12:57:01 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 12:57:01 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 12:57:10 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/1 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt update
+May  3 12:57:10 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 12:57:52 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:05:51 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/1 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:05:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:14:44 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:14:44 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:14:44 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:14:56 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:14:56 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:14:56 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:15:01 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+May  3 13:15:01 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:15:03 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:15:06 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mono-official-stable.list
+May  3 13:15:06 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:15:06 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:15:10 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:15:10 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:15:10 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:15:29 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:15:29 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:15:29 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:16:11 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/3 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:16:11 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:16:11 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:16:40 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:16:40 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:16:40 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:16:44 oscargc-OptiPlex-980 systemd-logind[797]: System is rebooting.
+May  3 13:17:33 oscargc-OptiPlex-980 systemd-logind[784]: New seat seat0.
+May  3 13:17:33 oscargc-OptiPlex-980 systemd-logind[784]: Watching system buttons on /dev/input/event1 (Power Button)
+May  3 13:17:33 oscargc-OptiPlex-980 systemd-logind[784]: Watching system buttons on /dev/input/event0 (Power Button)
+May  3 13:17:33 oscargc-OptiPlex-980 systemd-logind[784]: Watching system buttons on /dev/input/event2 (Dell Dell USB Keyboard)
+May  3 13:17:35 oscargc-OptiPlex-980 sshd[915]: Server listening on 0.0.0.0 port 22.
+May  3 13:17:35 oscargc-OptiPlex-980 sshd[915]: Server listening on :: port 22.
+May  3 13:17:35 oscargc-OptiPlex-980 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+May  3 13:17:35 oscargc-OptiPlex-980 systemd-logind[784]: New session c1 of user gdm.
+May  3 13:17:35 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+May  3 13:17:40 oscargc-OptiPlex-980 sshd[915]: Received SIGHUP; restarting.
+May  3 13:17:40 oscargc-OptiPlex-980 sshd[915]: Server listening on 0.0.0.0 port 22.
+May  3 13:17:40 oscargc-OptiPlex-980 sshd[915]: Server listening on :: port 22.
+May  3 13:17:46 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 13:18:07 oscargc-OptiPlex-980 dbus-daemon[810]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 13:18:11 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:session): session opened for user oscargc by (uid=0)
+May  3 13:18:11 oscargc-OptiPlex-980 systemd-logind[784]: New session 2 of user oscargc.
+May  3 13:18:11 oscargc-OptiPlex-980 systemd: pam_unix(systemd-user:session): session opened for user oscargc by (uid=0)
+May  3 13:18:16 oscargc-OptiPlex-980 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 13:18:35 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:18:35 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:18:35 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:18:40 oscargc-OptiPlex-980 dbus-daemon[810]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 13:18:46 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt-get update
+May  3 13:18:46 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:18:53 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:18:57 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+May  3 13:18:57 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:18:57 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:21:28 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/bin/rm -rf mono-official-stable.list
+May  3 13:21:28 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:21:28 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:21:38 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+May  3 13:21:38 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:21:40 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:21:50 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mono-official-stable.list
+May  3 13:21:50 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:21:50 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:21:58 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/usr/bin/apt update
+May  3 13:21:58 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:22:01 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:22:30 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/usr/bin/apt install mono-devel -y
+May  3 13:22:30 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:22:30 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:22:35 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/usr/bin/apt install mono-devel -f
+May  3 13:22:35 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:22:36 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:22:51 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/usr/bin/dpkg --configure
+May  3 13:22:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:22:52 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:23:48 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt/sources.list.d ; USER=root ; COMMAND=/bin/rm -rf mono-official-stable.list
+May  3 13:23:48 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:23:48 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:24:26 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+May  3 13:24:26 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:24:47 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:24:56 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+May  3 13:24:56 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:24:59 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:25:07 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get install mono-devel
+May  3 13:25:07 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:25:08 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:26:34 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get install mono-devel -y
+May  3 13:26:34 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:26:35 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:29:51 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt install libmono-cecil-private-cil libmono-system-runtime4.0-cil libmono-system-servicemodel4.0a-cil libmono-system-serviceprocess4.0-cil libmono-system-web-services4.0-cil mono-mcs mono-gac libmono-cil-dev libmono-2.0-dev mono-csharp-shell
+May  3 13:29:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:29:51 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:30:03 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt install libmono-cecil-private-cil libmono-system-runtime4.0-cil libmono-system-servicemodel4.0a-cil libmono-system-serviceprocess4.0-cil libmono-system-web-services4.0-cil mono-mcs mono-gac libmono-cil-dev libmono-2.0-dev
+May  3 13:30:03 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:30:04 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:30:09 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt install libmono-cecil-private-cil libmono-system-runtime4.0-cil libmono-system-servicemodel4.0a-cil libmono-system-serviceprocess4.0-cil libmono-system-web-services4.0-cil mono-mcs mono-gac libmono-cil-dev
+May  3 13:30:09 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:30:10 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:30:34 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+May  3 13:30:34 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:30:35 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:30:50 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mono-official-stable.list
+May  3 13:30:50 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:30:50 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:31:20 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt install mono-complete
+May  3 13:31:20 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:31:22 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:31:38 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get update
+May  3 13:31:38 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:31:42 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:31:46 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+May  3 13:31:46 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:31:47 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:32:03 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt autoremove
+May  3 13:32:03 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:32:36 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:32:41 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt install mono-complete
+May  3 13:32:41 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:36:16 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:48:48 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 13:49:16 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 13:50:42 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt install mono-devel
+May  3 13:50:42 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:50:42 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 13:51:24 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/etc/apt ; USER=root ; COMMAND=/usr/bin/apt update
+May  3 13:51:24 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 13:51:27 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 14:03:13 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 14:05:25 oscargc-OptiPlex-980 sudo:  oscargc : TTY=pts/0 ; PWD=/home/oscargc/Downloads ; USER=root ; COMMAND=/usr/bin/apt install git
+May  3 14:05:25 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  3 14:05:36 oscargc-OptiPlex-980 sudo: pam_unix(sudo:session): session closed for user root
+May  3 14:17:01 oscargc-OptiPlex-980 CRON[14087]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  3 14:17:01 oscargc-OptiPlex-980 CRON[14087]: pam_unix(cron:session): session closed for user root
+May  3 14:39:30 oscargc-OptiPlex-980 dbus-daemon[810]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  3 14:56:06 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 14:56:10 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 14:56:13 oscargc-OptiPlex-980 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=oscargc
+May  3 14:56:18 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 15:15:00 oscargc-OptiPlex-980 gdm-password]: gkr-pam: unlocked login keyring
+May  3 15:15:57 oscargc-OptiPlex-980 dbus-daemon[810]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)

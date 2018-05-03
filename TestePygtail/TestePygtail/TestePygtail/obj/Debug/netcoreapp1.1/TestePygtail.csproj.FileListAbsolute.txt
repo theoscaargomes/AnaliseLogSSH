@@ -1,0 +1,10 @@
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\bin\Debug\netcoreapp1.1\TestePygtail.deps.json
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\bin\Debug\netcoreapp1.1\TestePygtail.runtimeconfig.json
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\bin\Debug\netcoreapp1.1\TestePygtail.runtimeconfig.dev.json
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\bin\Debug\netcoreapp1.1\TestePygtail.dll
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\bin\Debug\netcoreapp1.1\TestePygtail.pdb
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\obj\Debug\netcoreapp1.1\TestePygtail.csprojResolveAssemblyReference.cache
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\obj\Debug\netcoreapp1.1\TestePygtail.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\obj\Debug\netcoreapp1.1\TestePygtail.AssemblyInfo.cs
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\obj\Debug\netcoreapp1.1\TestePygtail.dll
+C:\Users\Alice\Documents\TestePygtail\TestePygtail\TestePygtail\obj\Debug\netcoreapp1.1\TestePygtail.pdb
